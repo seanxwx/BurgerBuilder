@@ -26,7 +26,7 @@ class BurgerBuilder extends Component{
         // error: false,
     }
     componentDidMount(){
-        console.log(this.props); 
+        // console.log(this.props); 
         this.props.onInitIngredients();
     }
     updatePurchaseState(ingredients){
